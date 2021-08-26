@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="nav">Network</h1>
+
+        <h1 class="centered">Your Feed</h1>
+        <div class="row">
+            <div class="left">
+                <div class="user">
+                    <img src="user-circle.png" alt="user" class="avatar-m">
+                    <p><a href="#">Add an avatar</a></p>
+                    <h2>Amro Ibrahim</h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Iman M.</h2>
+                        <div class="likes">
+                            <span id="post-1">9 like(s)</span>
+                            <button class="like-btn" onclick="like(0)">Like</button>
+                        </div>
+                    </div>
+                    <p> i just came back from that new pizza shop; definitely a must try. <a href="#">link</a></p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Nikhil V.</h2>
+                        <div class="likes">
+                            <span id="post-2">12 like(s)</span>
+                            <button class="like-btn" onclick="like(1)">Like</button>
+                        </div>
+                    </div>
+                    <p> Just finished editing that photoshoot. Link in my bio! <a href="#"> Press Here</a> to check it out.</p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                        <h2>Adam P.</h2>
+                        <div class="likes">
+                            <span id="post-3">9 like(s)</span>
+                            <button class="like-btn" onclick="like(2)">Like</button>
+                        </div>
+                    </div>
+                    <p> Tickets to <a href="#">Drake</a> in October. Who else is down?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Likes.js"></script>
+</body>
+
+</html>
